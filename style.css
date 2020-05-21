@@ -19,16 +19,24 @@ body {
   }
 
   .wrapper .input_data {
-      margin-left: 25px;
+    width: 85%;
+    margin: 10px 28px;
   }
-  .wrapper .input_data input {
+
+  .wrapper .input_data h3 {
+    padding: 0px;
+    margin: 0px;
+    width: 75px;
+  }
+  .wrapper  input {
     border: none;
     display: block;
     font-size: 16px;
     padding: 10px;
-    margin: 5px 30px;
-    width: 80%;
+    margin: 5px 20px;
+    width: 60%;
     text-align: right;
+    float: right;
   }
 
   .wrapper button {
